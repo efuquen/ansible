@@ -191,6 +191,7 @@ def url_argument_spec():
         http_agent = dict(default='ansible-httpget'),
         use_proxy = dict(default='yes', type='bool'),
         validate_certs = dict(default='yes', type='bool'),
+        timeout = dict(default='30', type='int')
     )
 
 
